@@ -1,0 +1,285 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+html
+{
+    size: .6rem;
+    
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+body{
+  background-color: rgb(217, 232, 245);
+}
+
+
+.nav-bar
+{
+  width: 12rem;
+  height: 100vh;
+  background-color: #777;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  z-index: 1;
+}
+.nav-header
+{ align-items: flex-start;
+  margin-left: 10px;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  text-shadow: 3px 2px 4px whitesmoke;
+  animation: headanim 4s infinite linear;
+  margin-top: -23rem;
+}
+
+@keyframes headanim {
+  0%
+  {
+    text-shadow: 1px 1px 2px whitesmoke;
+  }
+  50%
+  {
+    text-shadow: 1px 2px 1px whitesmoke;
+  }
+  100%
+  {
+    text-shadow: 2px 1px 2px whitesmoke;
+  }
+}
+
+.underline{
+  background-color: black;
+  align-content: center;
+  margin-left: 12px;
+  width: 10rem;
+  height: 0.1rem;
+  animation: headanim 4s infinite linear;
+}
+ul li{
+  list-style: none;
+}
+
+
+.nav-items
+{margin: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aliceblue;
+  border-radius: 4px;
+  height: 80vh;
+  margin-bottom: -22rem;
+  overflow: auto;
+}
+
+.line{
+  background-color: black;
+  width: 10rem;
+  height: 0.03rem;
+  margin-left: -1.35rem;
+}
+a:link
+{
+  text-decoration: none;
+  cursor: pointer;
+}
+.homepage
+{
+  margin-left: 12rem;
+  margin-top: -45rem;
+  background-color: rgb(217, 232, 245);
+  position: relative;
+}
+
+.main-header{
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  margin-top: 1rem;
+  align-self: center;
+  text-align: center;
+  background-color: rgb(217, 232, 245);
+}
+
+.main-page
+{
+  background-color: rgb(217, 232, 245);
+  margin-left: -1rem;
+  margin-bottom: 2rem;
+  position: relative;
+  margin-left: 1rem;
+}
+
+.nav-li
+{
+  margin-bottom: 1rem;
+}
+.nav-btns
+{
+  font-size: 1.1rem;
+  margin-left: -1rem;
+}
+
+.main-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 2rem;
+}
+
+.prod-cont
+{
+   width: 200px;
+   height: 100px;
+   background-color: aquamarine;
+   border-radius: 0.4rem ;
+   border: .02rem solid black;
+   align-content: center;
+   text-align: center;
+   padding-top: 1rem;
+   box-sizing: border-box;
+   font-size: 1rem;
+   font-weight: 700;
+}
+.prod-cont:hover
+{
+  box-shadow: 2px 2px 3px blue;
+}
+
+.order-cont
+{
+  width: 200px;
+   height: 100px;
+   background-color: rgb(127, 153, 255);
+   border-radius: 0.4rem ;
+   align-content: center;
+   text-align: center;
+   padding-top: 1rem;
+   box-sizing: border-box;
+   font-size: 1rem;
+   font-weight: 700;
+   border: .02rem solid black;
+}
+.order-cont:hover
+{
+  box-shadow: 2px 2px 3px blue;
+}
+
+.supp-cont
+{
+   width: 200px;
+   height: 100px;
+   background-color: rgb(255, 234, 127);
+   border-radius: 0.4rem ;
+   align-content: center;
+   text-align: center;
+   padding-top: 1rem;
+   box-sizing: border-box;
+   font-size: 1rem;
+   font-weight: 700;
+   border: .02rem solid black;
+}
+.supp-cont:hover
+{
+  box-shadow: 2px 2px 3px blue;
+}
+
+.stock-cont
+{
+  width: 200px;
+  height: 100px;
+  background-color: rgb(255, 127, 221);
+  border-radius: 0.4rem ;
+  align-content: center;
+   text-align: center;
+   padding-top: 1rem;
+   box-sizing: border-box;
+   font-size: 1rem;
+   font-weight: 700;
+   border: .02rem solid black;
+}
+.stock-cont:hover
+{
+  box-shadow: 2px 2px 3px blue;
+}
+
+
+.table-view
+{
+  position: relative;
+  margin-top: 4rem;
+  margin-left: 0rem;
+  width: auto;
+  height: auto;
+  background-color: rgb(217, 232, 245);
+  align-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ padding: 2rem;
+}
+
+.tb-content
+{
+  border: 2px solid black;
+  width: 5rem;
+  align-self: baseline;
+  align-items: baseline;
+}
+
+#tb-head
+{
+  font-size: 3.0rem;
+    text-align: center;
+    font-family: "Josenfin Sans";
+}
+
+table th{
+  font-family: "Agbalumo";
+  font-weight: 200;
+}
+
+
+.foot-bar
+{
+  position: relative;
+  width: auto;
+  height: 7.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background-color:rgb(107, 107, 231);
+  padding: 2rem;
+  bottom: 0;
+  margin-top: 8rem;
+}
+
+.foot-ul
+{align-items: last baseline;
+  display: flex;
+  justify-content: space-around;
+}
+
+.send-mail
+{
+  display: flex;
+
+}
+
+.send
+{
+  cursor: pointer;
+}
